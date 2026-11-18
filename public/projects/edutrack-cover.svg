@@ -1,0 +1,123 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#082F49"/>
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="purple-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="820" height="520" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="20" fill="url(#bg-grad)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.08" stroke="#38BDF8" stroke-width="1">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+  </g>
+
+  <!-- Glow effects -->
+  <circle cx="680" cy="90" r="140" fill="#06B6D4" opacity="0.18" filter="blur(60px)"/>
+  <circle cx="150" cy="420" r="120" fill="#8B5CF6" opacity="0.15" filter="blur(50px)"/>
+
+  <!-- Top App Bar / Window Mockup -->
+  <g transform="translate(60, 45)">
+    <rect width="680" height="410" rx="16" fill="#111827" stroke="#1F2937" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Window Header -->
+    <rect width="680" height="42" rx="16" fill="#1E293B"/>
+    <rect y="26" width="680" height="16" fill="#1E293B"/>
+    <circle cx="24" cy="21" r="5" fill="#EF4444"/>
+    <circle cx="40" cy="21" r="5" fill="#F59E0B"/>
+    <circle cx="56" cy="21" r="5" fill="#10B981"/>
+    
+    <!-- URL Bar -->
+    <rect x="220" y="10" width="240" height="22" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="245" y="25" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10" font-weight="500">edutrack.id/learn/ui-ux-design</text>
+
+    <!-- Sidebar Mockup -->
+    <rect x="0" y="42" width="160" height="368" fill="#0B132B" opacity="0.9"/>
+    <!-- Brand in app -->
+    <rect x="18" y="60" width="24" height="24" rx="6" fill="url(#cyan-glow)"/>
+    <text x="50" y="77" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13" font-weight="700">EduTrack</text>
+
+    <!-- Sidebar Items -->
+    <rect x="14" y="105" width="132" height="30" rx="8" fill="#1E293B" stroke="#06B6D4" stroke-width="1"/>
+    <text x="36" y="125" fill="#22D3EE" font-family="system-ui, sans-serif" font-size="11" font-weight="600">📚 Silabus Aktif</text>
+    
+    <text x="36" y="160" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">🏆 Lencana Saya</text>
+    <text x="36" y="195" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">📊 Analitik Skor</text>
+    <text x="36" y="230" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">💬 Diskusi Mentor</text>
+
+    <!-- Streak Badge in Sidebar -->
+    <rect x="14" y="320" width="132" height="60" rx="10" fill="#0F172A" stroke="#334155"/>
+    <text x="24" y="342" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="11" font-weight="700">🔥 7 Hari Beruntun</text>
+    <text x="24" y="362" fill="#64748B" font-family="system-ui, sans-serif" font-size="9">Konsistensi +15% XP</text>
+
+    <!-- Main Content Area -->
+    <g transform="translate(180, 58)">
+      <!-- Greeting & Progress Header -->
+      <text x="0" y="20" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Selamat datang kembali, Dian!</text>
+      <text x="0" y="38" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Modul 4: Wireframing & Usability Heuristics</text>
+      
+      <!-- Big Progress Card -->
+      <rect x="0" y="55" width="470" height="90" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="18" y="82" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Total Progress Pembelajaran</text>
+      <text x="420" y="82" fill="#22D3EE" font-family="system-ui, sans-serif" font-size="13" font-weight="700">78%</text>
+      
+      <!-- Progress Bar Track -->
+      <rect x="18" y="98" width="434" height="10" rx="5" fill="#0F172A"/>
+      <rect x="18" y="98" width="338" height="10" rx="5" fill="url(#cyan-glow)"/>
+
+      <text x="18" y="128" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">Lanjutkan: “Evaluasi Heuristik Nielsen pada Mobile App”</text>
+
+      <!-- Video & Interactive Player Card -->
+      <rect x="0" y="160" width="310" height="160" rx="12" fill="#0F172A" stroke="#1E293B"/>
+      <!-- Play button overlay -->
+      <circle cx="155" cy="230" r="26" fill="url(#cyan-glow)"/>
+      <polygon points="151,220 165,230 151,240" fill="#0B132B"/>
+      <text x="16" y="185" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Video Kuliah Interaktif #08</text>
+      <text x="16" y="300" fill="#64748B" font-family="system-ui, sans-serif" font-size="9">Durasi 14:20 · Tersedia Rangkuman</text>
+
+      <!-- Next Module Widget -->
+      <rect x="325" y="160" width="145" height="160" rx="12" fill="#1E293B" stroke="#334155"/>
+      <text x="338" y="185" fill="#A855F7" font-family="system-ui, sans-serif" font-size="11" font-weight="700">KUIS MIKRO</text>
+      <text x="338" y="210" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Uji Pemahaman</text>
+      <text x="338" y="228" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10">5 Soal Praktik</text>
+      <rect x="338" y="260" width="118" height="30" rx="6" fill="#06B6D4"/>
+      <text x="365" y="279" fill="#091E3A" font-family="system-ui, sans-serif" font-size="10" font-weight="700">Mulai Kuis</text>
+    </g>
+  </g>
+
+  <!-- Tag Pill overlay -->
+  <g transform="translate(85, 420)">
+    <rect width="180" height="28" rx="14" fill="#082F49" stroke="#0284C7" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#22D3EE"/>
+    <text x="28" y="18" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="10" font-weight="600">SUS Score: 84.5 (Excellent)</text>
+  </g>
+</svg>

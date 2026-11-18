@@ -1,0 +1,119 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad-4" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#081E32"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#0C2540"/>
+    </linearGradient>
+    <linearGradient id="cyan-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="20" fill="url(#bg-grad-4)"/>
+
+  <!-- Glows -->
+  <circle cx="200" cy="180" r="160" fill="#0284C7" opacity="0.15" filter="blur(70px)"/>
+  <circle cx="650" cy="350" r="140" fill="#38BDF8" opacity="0.12" filter="blur(65px)"/>
+
+  <!-- Main Research Document Presentation -->
+  <g transform="translate(60, 45)">
+    <!-- Container -->
+    <rect width="680" height="410" rx="16" fill="#0F172A" stroke="#1E293B" stroke-width="2"/>
+
+    <!-- Document Header Banner -->
+    <rect width="680" height="60" rx="16" fill="#1E293B"/>
+    <rect y="44" width="680" height="16" fill="#1E293B"/>
+    
+    <!-- Journal Badge -->
+    <rect x="24" y="16" width="90" height="26" rx="6" fill="#0369A1"/>
+    <text x="36" y="33" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="700">JISEBI 2024</text>
+
+    <!-- Indexed Status -->
+    <rect x="122" y="16" width="140" height="26" rx="6" fill="#082F49" stroke="#0284C7"/>
+    <text x="132" y="33" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="10" font-weight="600">SINTA Terakreditasi</text>
+
+    <text x="500" y="33" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">Peer-Reviewed Paper</text>
+
+    <!-- Content 2 Columns -->
+    <!-- Left Column: Research Abstract & Heuristics -->
+    <g transform="translate(24, 75)">
+      <text x="0" y="20" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Evaluasi Usability SIAKAD Berbasis SUS &amp; UEQ</text>
+      <text x="0" y="38" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="11">Penulis: Muhammad Mirza Fatih · Jurusan Sistem Informasi</text>
+
+      <!-- Abstract Card -->
+      <rect x="0" y="52" width="310" height="105" rx="10" fill="#1E293B" stroke="#334155"/>
+      <text x="14" y="74" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">RINGKASAN METODOLOGI</text>
+      <text x="14" y="94" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="9" line-height="1.5">
+        Penelitian kuantitatif empiris mengukur 150 sampel
+      </text>
+      <text x="14" y="110" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="9">
+        mahasiswa dengan instrumentasi 10 item System
+      </text>
+      <text x="14" y="126" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="9">
+        Usability Scale (SUS) dan 6 dimensi UEQ standar Brooke.
+      </text>
+      <text x="14" y="142" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9" font-weight="600">
+        Tingkat Reliabilitas Cronbach's Alpha: 0.892 (Tinggi)
+      </text>
+
+      <!-- Recommendation Framework Box -->
+      <rect x="0" y="170" width="310" height="95" rx="10" fill="#0B132B" stroke="#0284C7"/>
+      <text x="14" y="192" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">5 REKOMENDASI REDESAIN HEURISTIK</text>
+      <text x="14" y="210" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9">✔ Reduksi Beban Kognitif pada Pemilihan Jadwal</text>
+      <text x="14" y="226" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9">✔ Deteksi Otomatis Jadwal KRS Bertabrakan</text>
+      <text x="14" y="242" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="9">✔ Visual Feedback Realtime SKS Terambil</text>
+    </g>
+
+    <!-- Right Column: Visual Charts & Metrics -->
+    <g transform="translate(355, 75)">
+      <!-- SUS Comparison Card -->
+      <rect x="0" y="0" width="300" height="120" rx="10" fill="#1E293B" stroke="#334155"/>
+      <text x="16" y="24" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Komparasi Skor SUS (Sebelum vs Usulan)</text>
+      
+      <!-- Bar 1 (Eksisting) -->
+      <text x="16" y="52" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9">Sistem Lama</text>
+      <rect x="90" y="42" width="110" height="14" rx="4" fill="#475569"/>
+      <text x="210" y="53" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">54.2 (D)</text>
+
+      <!-- Bar 2 (Redesain) -->
+      <text x="16" y="80" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9" font-weight="600">Usulan Desain</text>
+      <rect x="90" y="70" width="180" height="14" rx="4" fill="url(#cyan-accent)"/>
+      <text x="210" y="81" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">82.6 (A)</text>
+      
+      <text x="16" y="105" fill="#10B981" font-family="system-ui, sans-serif" font-size="9" font-weight="600">▲ Peningkatan Kegunaan: +52.4%</text>
+
+      <!-- UEQ Dimensions Mini Chart -->
+      <rect x="0" y="132" width="300" height="135" rx="10" fill="#1E293B" stroke="#334155"/>
+      <text x="16" y="154" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Evaluasi Dimensi UEQ (Scale Analysis)</text>
+
+      <!-- 4 Dimension bars -->
+      <text x="16" y="178" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9">Daya Tarik</text>
+      <rect x="85" y="170" width="150" height="8" rx="4" fill="#0284C7"/>
+      <text x="245" y="178" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9">+1.75</text>
+
+      <text x="16" y="198" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9">Efisiensi</text>
+      <rect x="85" y="190" width="160" height="8" rx="4" fill="#0284C7"/>
+      <text x="255" y="198" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9">+1.88</text>
+
+      <text x="16" y="218" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9">Kejelasan</text>
+      <rect x="85" y="210" width="145" height="8" rx="4" fill="#0284C7"/>
+      <text x="240" y="218" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9">+1.62</text>
+
+      <text x="16" y="238" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9">Kebaruan</text>
+      <rect x="85" y="230" width="130" height="8" rx="4" fill="#0284C7"/>
+      <text x="225" y="238" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="9">+1.40</text>
+
+      <text x="16" y="258" fill="#64748B" font-family="system-ui, sans-serif" font-size="8">Nilai > 0.8 dikategorikan positif dan di atas rata-rata tolok ukur.</text>
+    </g>
+  </g>
+
+  <!-- Tag Pill overlay -->
+  <g transform="translate(85, 420)">
+    <rect width="210" height="28" rx="14" fill="#082F49" stroke="#0284C7" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#38BDF8"/>
+    <text x="28" y="18" fill="#BAE6FD" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Empirical UX Research Paper</text>
+  </g>
+</svg>

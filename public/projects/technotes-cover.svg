@@ -1,0 +1,136 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad-2" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F0C20"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#241442"/>
+    </linearGradient>
+    <linearGradient id="purple-btn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#9333EA"/>
+    </linearGradient>
+    <linearGradient id="cyan-code" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="20" fill="url(#bg-grad-2)"/>
+
+  <!-- Glows -->
+  <circle cx="200" cy="120" r="160" fill="#9333EA" opacity="0.14" filter="blur(70px)"/>
+  <circle cx="700" cy="400" r="140" fill="#06B6D4" opacity="0.12" filter="blur(60px)"/>
+
+  <!-- Main App Window -->
+  <g transform="translate(60, 45)">
+    <!-- Container -->
+    <rect width="680" height="410" rx="16" fill="#0D1117" stroke="#21262D" stroke-width="2"/>
+    
+    <!-- Titlebar -->
+    <rect width="680" height="40" rx="16" fill="#161B22"/>
+    <rect y="24" width="680" height="16" fill="#161B22"/>
+    <circle cx="22" cy="20" r="5" fill="#FF5F56"/>
+    <circle cx="38" cy="20" r="5" fill="#FFBD2E"/>
+    <circle cx="54" cy="20" r="5" fill="#27C93F"/>
+
+    <!-- Search Command Bar / Ctrl+K in titlebar -->
+    <rect x="200" y="8" width="280" height="24" rx="6" fill="#0D1117" stroke="#30363D"/>
+    <text x="215" y="24" fill="#8B949E" font-family="system-ui, sans-serif" font-size="11">🔍 Cari cuplikan kode atau docs...</text>
+    <rect x="428" y="12" width="44" height="16" rx="4" fill="#21262D"/>
+    <text x="433" y="24" fill="#C9D1D9" font-family="system-ui, monospace" font-size="9" font-weight="600">⌘ + K</text>
+
+    <!-- Sidebar Explorer -->
+    <rect x="0" y="40" width="170" height="370" fill="#11161D"/>
+    <line x1="170" y1="40" x2="170" y2="410" stroke="#21262D"/>
+
+    <text x="18" y="65" fill="#8B949E" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">DOKUMENTASI SPRINT</text>
+
+    <!-- File tree -->
+    <rect x="10" y="80" width="150" height="28" rx="6" fill="#1F242C"/>
+    <text x="22" y="98" fill="#F0F6FC" font-family="system-ui, sans-serif" font-size="11" font-weight="500">📄 auth-middleware.ts</text>
+    
+    <text x="22" y="130" fill="#8B949E" font-family="system-ui, sans-serif" font-size="11">📄 docker-compose.yml</text>
+    <text x="22" y="160" fill="#8B949E" font-family="system-ui, sans-serif" font-size="11">📄 postgres-schema.sql</text>
+    <text x="22" y="190" fill="#8B949E" font-family="system-ui, sans-serif" font-size="11">📄 deploy-vercel.sh</text>
+
+    <!-- Tech Stack Filter Pills -->
+    <text x="18" y="240" fill="#8B949E" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">TAGS TEKNIS</text>
+    <rect x="14" y="255" width="62" height="20" rx="10" fill="#1E1B4B" stroke="#4338CA"/>
+    <text x="22" y="269" fill="#818CF8" font-family="system-ui, sans-serif" font-size="9" font-weight="600">TypeScript</text>
+    <rect x="82" y="255" width="50" height="20" rx="10" fill="#1E293B" stroke="#475569"/>
+    <text x="90" y="269" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9" font-weight="600">Docker</text>
+
+    <rect x="14" y="283" width="45" height="20" rx="10" fill="#1E293B" stroke="#475569"/>
+    <text x="22" y="297" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9" font-weight="600">Next.js</text>
+    <rect x="65" y="283" width="45" height="20" rx="10" fill="#1E293B" stroke="#475569"/>
+    <text x="73" y="297" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="9" font-weight="600">REST</text>
+
+    <!-- Editor Main Area -->
+    <g transform="translate(185, 52)">
+      <!-- Tab & Header -->
+      <text x="0" y="18" fill="#F0F6FC" font-family="system-ui, sans-serif" font-size="14" font-weight="700">auth-middleware.ts</text>
+      
+      <!-- Copy Button -->
+      <g transform="translate(370, 0)">
+        <rect width="105" height="26" rx="6" fill="#1F242C" stroke="#388BFD"/>
+        <text x="14" y="17" fill="#58A6FF" font-family="system-ui, sans-serif" font-size="10" font-weight="600">📋 Salin Kode</text>
+      </g>
+
+      <!-- Code Box -->
+      <rect x="0" y="32" width="475" height="240" rx="10" fill="#0A0D12" stroke="#1F242C"/>
+      
+      <!-- Line Numbers & Code text -->
+      <g font-family="system-ui, 'Fira Code', monospace" font-size="11" line-height="1.6">
+        <text x="14" y="58" fill="#484F58">01</text>
+        <text x="44" y="58" fill="#FF7B72">import</text>
+        <text x="88" y="58" fill="#C9D1D9">{ NextResponse } from</text>
+        <text x="226" y="58" fill="#A5D6FF">'next/server'</text>
+
+        <text x="14" y="80" fill="#484F58">02</text>
+        <text x="44" y="80" fill="#FF7B72">export async function</text>
+        <text x="180" y="80" fill="#D2A8FF">middleware</text>
+        <text x="250" y="80" fill="#C9D1D9">(req: NextRequest) {</text>
+
+        <text x="14" y="102" fill="#484F58">03</text>
+        <text x="64" y="102" fill="#79C0FF">const</text>
+        <text x="105" y="102" fill="#C9D1D9">token = req.cookies.get(</text>
+        <text x="255" y="102" fill="#A5D6FF">'auth-session'</text>
+        <text x="340" y="102" fill="#C9D1D9">)</text>
+
+        <text x="14" y="124" fill="#484F58">04</text>
+        <text x="64" y="124" fill="#FF7B72">if</text>
+        <text x="85" y="124" fill="#C9D1D9">(!token) {</text>
+
+        <text x="14" y="146" fill="#484F58">05</text>
+        <text x="84" y="146" fill="#FF7B72">return</text>
+        <text x="130" y="146" fill="#FFA657">NextResponse.redirect</text>
+        <text x="270" y="146" fill="#C9D1D9">(new URL('/login'))</text>
+
+        <text x="14" y="168" fill="#484F58">06</text>
+        <text x="64" y="168" fill="#C9D1D9">}</text>
+
+        <text x="14" y="190" fill="#484F58">07</text>
+        <text x="64" y="190" fill="#FF7B72">return</text>
+        <text x="110" y="190" fill="#FFA657">NextResponse.next()</text>
+
+        <text x="14" y="212" fill="#484F58">08</text>
+        <text x="44" y="212" fill="#C9D1D9">}</text>
+      </g>
+
+      <!-- Bottom Status in app -->
+      <g transform="translate(0, 285)">
+        <rect width="475" height="34" rx="8" fill="#161B22"/>
+        <circle cx="16" cy="17" r="4" fill="#27C93F"/>
+        <text x="28" y="21" fill="#8B949E" font-family="system-ui, sans-serif" font-size="10">Snippet tervalidasi · Waktu copy &lt; 0.5 detik · Zero Context Switching</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tag Pill overlay -->
+  <g transform="translate(85, 420)">
+    <rect width="175" height="28" rx="14" fill="#3B0764" stroke="#7C3AED" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#C084FC"/>
+    <text x="28" y="18" fill="#E9D5FF" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Dev Productivity UX</text>
+  </g>
+</svg>

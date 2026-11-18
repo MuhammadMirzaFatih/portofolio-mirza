@@ -1,0 +1,75 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+
+  <!-- Radial Glows -->
+  <circle cx="200" cy="150" r="280" fill="#06B6D4" opacity="0.12" filter="blur(120px)"/>
+  <circle cx="1000" cy="450" r="320" fill="#A855F7" opacity="0.12" filter="blur(140px)"/>
+
+  <!-- Border Card Frame -->
+  <rect x="50" y="50" width="1100" height="530" rx="28" fill="#111827" fill-opacity="0.6" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Badge STILL IN BETA -->
+  <g transform="translate(100, 100)">
+    <rect width="160" height="36" rx="18" fill="#451A03" stroke="#F59E0B" stroke-width="1.5"/>
+    <circle cx="20" cy="18" r="5" fill="#F59E0B"/>
+    <text x="36" y="23" fill="#FDE68A" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">STILL IN BETA.</text>
+  </g>
+
+  <!-- Name & Field -->
+  <text x="100" y="210" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="52" font-weight="800">Muhammad Mirza Fatih</text>
+  <text x="100" y="275" fill="url(#title-grad)" font-family="system-ui, sans-serif" font-size="34" font-weight="700">UI/UX Design · Digital Marketing</text>
+  
+  <text x="100" y="340" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="20" font-weight="400">
+    Mahasiswa Sistem Informasi Universitas Negeri Surabaya (UNESA)
+  </text>
+  <text x="100" y="375" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="20" font-weight="400">
+    Merancang produk digital yang mudah dipakai, estetik, dan berorientasi konversi data.
+  </text>
+
+  <!-- Key Highlights Pills -->
+  <g transform="translate(100, 440)">
+    <rect width="210" height="46" rx="23" fill="#0F172A" stroke="#334155"/>
+    <text x="24" y="29" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="15" font-weight="600">🎯 4 Studi Kasus Lengkap</text>
+  </g>
+
+  <g transform="translate(330, 440)">
+    <rect width="210" height="46" rx="23" fill="#0F172A" stroke="#334155"/>
+    <text x="24" y="29" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="15" font-weight="600">⚡ Figma &amp; Maze Expert</text>
+  </g>
+
+  <g transform="translate(560, 440)">
+    <rect width="230" height="46" rx="23" fill="#0F172A" stroke="#334155"/>
+    <text x="24" y="29" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="15" font-weight="600">🚀 MSIB Batch 5 Alum</text>
+  </g>
+
+  <!-- Right Side Visual / Stats -->
+  <g transform="translate(840, 150)">
+    <rect width="250" height="330" rx="20" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+    <text x="25" y="45" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="700">STATUS REKRUTMEN</text>
+    
+    <circle cx="35" cy="85" r="7" fill="#10B981"/>
+    <text x="52" y="90" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Open for Internship</text>
+    <text x="52" y="112" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">UI/UX Designer Role</text>
+
+    <line x1="25" y1="140" x2="225" y2="140" stroke="#334155"/>
+
+    <text x="25" y="175" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Karya Unggulan:</text>
+    <text x="25" y="202" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">1. EduTrack.id (EdTech)</text>
+    <text x="25" y="228" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">2. TechNotes (Dev Tools)</text>
+    <text x="25" y="254" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">3. Nin's Kitchen (F&amp;B UMKM)</text>
+    <text x="25" y="280" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="14" font-weight="600">4. Publikasi Jurnal JISEBI</text>
+  </g>
+</svg>
