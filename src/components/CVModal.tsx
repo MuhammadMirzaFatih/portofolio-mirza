@@ -121,13 +121,13 @@ export default function CVModal({ isOpen, onClose }: CVModalProps) {
             <div className="p-3.5 rounded-xl bg-navy-950 border border-slate-800">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-1">
                 <h4 className="font-bold text-white text-sm">Universitas Negeri Surabaya (UNESA)</h4>
-                <span className="text-xs font-mono text-slate-400">2022 – Sekarang</span>
+                <span className="text-xs font-mono text-slate-400">2024 – Sekarang</span>
               </div>
               <p className="text-cyan-400 text-xs font-semibold mb-1">
                 S1 Sistem Informasi — Fakultas Teknik
               </p>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Fokus: Interaksi Manusia & Komputer (HCI), Analisis & Perancangan Sistem, Pengujian Kegunaan Perangkat Lunak. Penulis Utama naskah riset evaluasi usability di Jurnal Ilmiah JISEBI.
+                Fokus: Interaksi Manusia & Komputer (HCI), Analisis & Perancangan Sistem Informasi, Pengukuran & Analisis Pengalaman Pengguna, Pemasaran Digital Cerdas.
               </p>
             </div>
           </div>

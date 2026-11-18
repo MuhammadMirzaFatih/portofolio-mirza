@@ -19,7 +19,7 @@ interface HeroProps {
 export default function Hero({ onOpenCvModal }: HeroProps) {
   const [copiedEmail, setCopiedEmail] = useState(false);
 
-  const emailAddress = "mirzafatih@email.com";
+  const emailAddress = "fatihmirza50@email.com";
 
   const handleCopyEmail = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -51,7 +51,7 @@ export default function Hero({ onOpenCvModal }: HeroProps) {
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] sm:w-[800px] h-[350px] sm:h-[450px] bg-gradient-radial from-cyan-500/15 via-purple-600/10 to-transparent blur-3xl opacity-80" />
         <div className="absolute top-10 right-5 sm:right-20 w-72 h-72 bg-purple-600/10 blur-[100px] rounded-full" />
         <div className="absolute bottom-20 left-5 sm:left-20 w-80 h-80 bg-cyan-600/10 blur-[100px] rounded-full" />
-        
+
         {/* Figma canvas subtle dot grid */}
         <div
           className="absolute inset-0 opacity-[0.14]"
@@ -80,7 +80,7 @@ export default function Hero({ onOpenCvModal }: HeroProps) {
           Halo, saya{" "}
           <span className="relative inline-block">
             <span className="text-white">Mirza</span>
-            <span className="text-cyan-400">.</span>
+            <span className="text-cyan-400">!</span>
             {/* Figma-like selection box decoration */}
             <span className="hidden sm:inline-block absolute -top-1 -right-3 w-2 h-2 border border-cyan-400 bg-navy-950" />
             <span className="hidden sm:inline-block absolute -bottom-1 -left-3 w-2 h-2 border border-cyan-400 bg-navy-950" />
@@ -113,7 +113,7 @@ export default function Hero({ onOpenCvModal }: HeroProps) {
           </div>
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-navy-900/80 border border-slate-800 text-slate-300">
             <Sparkles className="w-3.5 h-3.5 text-purple-400" />
-            <span>Alum MSIB Batch 5</span>
+            <span>Alumni MSIB VINIX7Batch 5</span>
           </div>
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-950/40 border border-emerald-500/30 text-emerald-300">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
@@ -161,7 +161,7 @@ export default function Hero({ onOpenCvModal }: HeroProps) {
           <div className="flex items-center justify-center gap-3">
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/mirzafatih"
+              href="https://www.linkedin.com/in/muhammadmirzafatih/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-slate-900/90 hover:bg-cyan-950/60 border border-slate-800 hover:border-cyan-500/40 text-slate-400 hover:text-cyan-400 transition-all group"
@@ -173,7 +173,7 @@ export default function Hero({ onOpenCvModal }: HeroProps) {
 
             {/* GitHub */}
             <a
-              href="https://github.com/mirzafatih"
+              href="https://github.com/MuhammadMirzaFatih"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white transition-all group"
@@ -185,7 +185,7 @@ export default function Hero({ onOpenCvModal }: HeroProps) {
 
             {/* Instagram */}
             <a
-              href="https://instagram.com/mirzafatih"
+              href="https://www.instagram.com/madshahab_"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-slate-900/90 hover:bg-purple-950/60 border border-slate-800 hover:border-purple-500/40 text-slate-400 hover:text-purple-400 transition-all group"

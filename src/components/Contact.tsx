@@ -20,7 +20,7 @@ interface ContactProps {
 
 export default function Contact({ onOpenCvModal }: ContactProps) {
   const [copied, setCopied] = useState(false);
-  const email = "mirzafatih@email.com";
+  const email = "fatihmirza50@email.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
@@ -113,7 +113,7 @@ export default function Contact({ onOpenCvModal }: ContactProps) {
                 Jejaring Profesional
               </span>
               <h3 className="text-lg font-bold text-white mb-2">
-                linkedin.com/in/mirzafatih
+                Muhammad Mirza Fatih
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed mb-5">
                 Terhubung di LinkedIn untuk memantau pembaruan studi kasus, rekam jejak akademik, dan diskusi seputar UI/UX.
@@ -122,7 +122,7 @@ export default function Contact({ onOpenCvModal }: ContactProps) {
 
             <div className="pt-3 border-t border-slate-800">
               <a
-                href="https://linkedin.com/in/mirzafatih"
+                href="https://www.linkedin.com/in/muhammadmirzafatih/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-xs font-bold text-white bg-purple-600 hover:bg-purple-500 transition-colors shadow-purple-glow/30"

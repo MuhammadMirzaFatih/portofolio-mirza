@@ -83,7 +83,7 @@ export default function Navbar({ onOpenCvModal }: NavbarProps) {
             </div>
             <div className="flex flex-col">
               <span className="text-sm font-bold text-slate-100 group-hover:text-cyan-400 transition-colors">
-                Mirza Fatih<span className="text-cyan-400">.</span>
+                Muhammad Mirza Fatih
               </span>
               <span className="text-[10px] font-medium text-slate-400 hidden xs:block">
                 UI/UX Designer

@@ -113,7 +113,7 @@ export default function About() {
                       Pendidikan Formal
                     </span>
                     <span className="text-xs font-mono text-slate-400 flex items-center gap-1">
-                      <Calendar className="w-3 h-3" /> 2022 – Sekarang
+                      <Calendar className="w-3 h-3" /> 2024 – Sekarang
                     </span>
                   </div>
                   <h4 className="text-lg font-bold text-white">
@@ -123,14 +123,11 @@ export default function About() {
                     S1 Sistem Informasi — Fakultas Teknik
                   </p>
                   <p className="text-slate-300 text-xs sm:text-sm leading-relaxed mb-3">
-                    Fokus studi pada <strong className="text-white">Interaksi Manusia & Komputer (HCI)</strong>, Analisis & Perancangan Sistem, Pengujian Kegunaan Perangkat Lunak, serta Manajemen Proyek Teknologi Informasi.
+                    Fokus studi pada <strong className="text-white">Interaksi Manusia & Komputer (HCI)</strong>, Analisis & Perancangan Sistem Informasi, Pengukuran & Analisis Pengalaman Pengguna, Pemasaran Digital Cerdas.
                   </p>
                   <div className="flex flex-wrap gap-2 text-xs">
                     <span className="px-2.5 py-1 rounded-md bg-slate-800/80 text-slate-300 border border-slate-700/60">
                       🎯 Fokus: HCI & User Research
-                    </span>
-                    <span className="px-2.5 py-1 rounded-md bg-slate-800/80 text-slate-300 border border-slate-700/60">
-                      📚 Penulis Jurnal Ilmiah (JISEBI)
                     </span>
                   </div>
                 </div>

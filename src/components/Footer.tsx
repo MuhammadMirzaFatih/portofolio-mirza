@@ -26,11 +26,6 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Tagline / Tech Stack */}
-          <div className="text-center sm:text-right text-[11px] text-slate-500">
-            <span>Didesain dengan pendekatan Figma, dibangun menggunakan Next.js &amp; Tailwind CSS.</span>
-          </div>
-
           {/* Back to top button */}
           <button
             onClick={scrollToTop}
