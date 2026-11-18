@@ -60,14 +60,14 @@ export default function About() {
                 </div>
 
                 {/* Avatar Image with alt text & lazy loading */}
-                <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-navy-950 border border-slate-800/80 flex items-center justify-center">
+                <div className="relative aspect-[4/5] w-full rounded-xl overflow-hidden bg-navy-950 border border-slate-800/80 flex items-center justify-center">
                   <Image
-                    src="/mirza-avatar.svg"
-                    alt="Potret Muhammad Mirza Fatih, Mahasiswa Sistem Informasi dan UI/UX Designer"
-                    width={380}
-                    height={380}
-                    loading="lazy"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="/mirza.jpg"
+                    alt="Foto asli Muhammad Mirza Fatih, Mahasiswa Sistem Informasi UNESA & UI/UX Designer"
+                    width={480}
+                    height={600}
+                    priority
+                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
 
